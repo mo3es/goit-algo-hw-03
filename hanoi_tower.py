@@ -1,6 +1,6 @@
 def move_disk(first, last, tower):
     item = tower[first].pop()
-    print(f'Переміщуємо диск {item} from {first} to {last}')
+    print(f'Переміщуємо диск {item} з {first} на {last}')
     tower[last].append(item)
     print(f'Проміжний стан: {tower}')
 
